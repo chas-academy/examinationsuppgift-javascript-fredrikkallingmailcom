@@ -16,7 +16,7 @@ const expenses = [];
 
 //Saldo
 const balanceLbl = document.getElementById("balance");
-let balance = 0;
+let balance = 0; 
 
 incomeBtn.addEventListener("click", () => {
   let descTxt = descInput.value.trim();
